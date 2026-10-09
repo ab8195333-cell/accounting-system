@@ -19,21 +19,5 @@
 - **Database:** MySQL
 - **Frontend:** Blade Templates, Bootstrap, JavaScript
 
-## ⚙️ خطوات التثبيت والتشغيل
-```bash
-# 1. استنسخ المستودع
-git clone [https://github.com/ab8195333-cell/accounting-system.git](https://github.com/ab8195333-cell/accounting-system.git)
-cd accounting-system
 
-# 2. تثبيت الاعتماديات
-composer install
 
-# 3. إعداد ملف البيئة .env وإضافة بيانات قاعدة البيانات
-cp .env.example .env
-php artisan key:generate
-
-# 4. تنفيذ التهجيرات والبيانات الأولية
-php artisan migrate --seed
-
-# 5. تشغيل السيرفر
-php artisan serve
